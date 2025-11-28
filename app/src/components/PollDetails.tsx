@@ -5,7 +5,7 @@ import { Contract } from "ethers";
 import { CONTRACT_ABI, CONTRACT_ADDRESS } from "../config/contracts";
 import { useEthersSigner } from "../hooks/useEthersSigner";
 import { useZamaInstance } from "../hooks/useZamaInstance";
-import type { PollSummary } from "../types/poll";
+import type { PollSummary } from "../type/poll";
 import { formatTimestamp, mapPollSummary, resolvePollPhase } from "../utils/pollHelpers";
 
 type PollDetailsProps = {

@@ -1,4 +1,4 @@
-import type { PollPhase, PollSummary } from "../types/poll";
+import type { PollPhase, PollSummary } from "../type/poll";
 
 export function mapPollSummary(entry: any): PollSummary {
   return {

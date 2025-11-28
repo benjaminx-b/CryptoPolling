@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { useAccount, useReadContract } from "wagmi";
 
 import { CONTRACT_ABI, CONTRACT_ADDRESS } from "../config/contracts";
-import type { PollSummary } from "../types/poll";
+import type { PollSummary } from "../type/poll";
 import { mapPollSummary, resolvePollPhase } from "../utils/pollHelpers";
 import { CreatePollForm } from "./CreatePollForm";
 import { Header } from "./Header";

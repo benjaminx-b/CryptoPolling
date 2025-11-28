@@ -1,4 +1,4 @@
-import type { PollSummary } from "../types/poll";
+import type { PollSummary } from "../type/poll";
 import { formatTimestamp, resolvePollPhase } from "../utils/pollHelpers";
 
 type PollListProps = {
